@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var glob = require("glob");
 const to_vfile = require("to-vfile");
 const report = require("vfile-reporter");
