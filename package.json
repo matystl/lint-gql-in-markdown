@@ -1,10 +1,13 @@
 {
-  "name": "lint-gql-in-markdown",
+  "name": "@matystl/lint-gql-in-markdown",
   "version": "1.0.0",
   "description": "Lint your markdown files against graphql schema",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "matystl",
   "license": "MIT",
