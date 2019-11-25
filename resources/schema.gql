@@ -1,0 +1,12 @@
+type Person {
+  name: String
+  age: Int
+}
+
+type Query {
+  person: Person
+}
+
+type Mutation {
+  addPerson(name: String): Person
+}

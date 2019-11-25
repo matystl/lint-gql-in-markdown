@@ -1,0 +1,24 @@
+{
+  "name": "lint-gql-in-markdown",
+  "version": "1.0.0",
+  "description": "Lint your markdown files against graphql schema",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "matystl",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.6",
+    "graphql": "^14.5.8",
+    "remark-parse": "^7.0.2",
+    "remark-stringify": "^7.0.4",
+    "to-vfile": "^6.0.0",
+    "unified": "^8.4.2",
+    "vfile-reporter": "^6.0.0",
+    "yargs": "^15.0.2"
+  },
+  "volta": {
+    "node": "8.16.2"
+  }
+}
